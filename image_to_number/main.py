@@ -8,91 +8,134 @@ import torchvision ## Contains some utilities for working with the image data
 from torchvision.datasets import MNIST
 import torchvision.transforms as transforms
 
+# Size of batches for MBGD
+BATCH_SIZE = 128
+LEARNING_RATE = 1e-2
+
 # Load training data
 mnist = MNIST(root = 'data/', download = True, train = True, transform = transforms.ToTensor())
-images = []
-labels = []
+trainingImages = []
+trainingLabels = []
+
 for image, label in mnist:
-    images.append(image.flatten())
-    labels.append(label)
+    trainingImages.append(image.flatten())
+    trainingLabels.append(label)
 
-print(len(images))
+testImages = trainingImages[:10000] # first 10,000 images are used for testing, not training
+testLabels = trainingLabels[:10000]
 
-inputSizeLayer1 = 8 * 8 # each MNIST image is 8x8 pixels
+trainingImages = trainingImages[10000:] # the rest are for training
+trainingLabels = trainingLabels[10000:]
+
+print(len(trainingImages))
+
+# Set the domain for the random values for initialising w1 and w2
+randDomainMax = 0.05
+randDomainMin = -0.05
+
+inputSizeLayer1 = 28 * 28 # each MNIST image is 28x28 pixels
 outputSizeLayer1 = 256 # intermediate value
 
 # create the weights for layer 1
-w1 = torch.rand(inputSizeLayer1, outputSizeLayer1, requires_grad=True)
-b1 = torch.zeros(inputSizeLayer1, requires_grad=True)
+w1 = torch.tensor( (randDomainMax - randDomainMin) * torch.rand(inputSizeLayer1, outputSizeLayer1) + randDomainMin, requires_grad=True )
+b1 = torch.zeros(outputSizeLayer1, requires_grad=True)
 weights1 = [w1, b1]
 
 inputSizeLayer2 = outputSizeLayer1 # output size of layer 1. 
 outputSizeLayer2 = 10 # Numbers 0-9
 
 # create the weights for layer 1
-w2 = torch.rand(inputSizeLayer2, outputSizeLayer2, requires_grad=True)
-b2 = torch.zeros(inputSizeLayer2, requires_grad=True)
+w2 = torch.tensor( (randDomainMax - randDomainMin) * torch.rand(inputSizeLayer2, outputSizeLayer2, requires_grad=True) + randDomainMin, requires_grad=True )
+b2 = torch.zeros(outputSizeLayer2, requires_grad=True)
 weights2 = [w2, b2]
 
 # create a dense layer (to run the forward pass)
 # input is the input data (vector, usually), w is the weigth that is multiplied, and b is the weight that is added
 def denseLayer1(input, w, b):
-    return (torch.relu(torch.matmul(input, w) + b)) # perform an affine transformation (no information is lost). 
+    return (torch.relu(torch.matmul(input, w) + b)) # perform an affine transformation (no information is lost), then relu ( all values >0)
 
 def denseLayer2(input, w, b):
-    return (torch.softmax(torch.matmul(input, w) + b, dim=0)) # perform an affine transformation (no information is lost). 
+    return torch.matmul(input, w) + b # perform an affine transformation (no information is lost). 
 
 def model(inputs, weights):
-    output = torch.zeros(outputSizeLayer2) # list of probabilities
-    for input in inputs:
-        output = output + denseLayer2( denseLayer1(input, weights[0][0], weights[0][1]), weights[1][0], weights[1][1] )
-    return output / len(inputs)
+    outputs = torch.zeros(len(inputs), outputSizeLayer2) # list of probabilities
+    for inputIndex, input in enumerate(inputs):
+        outputs[inputIndex] = denseLayer2( denseLayer1(input, weights[0][0], weights[0][1]), weights[1][0], weights[1][1] )
+    return outputs
 
 #   inputs is the input images (batch). labels is a list of what the images actually are
 def trainingStep(inputs, labels): # takes a patch of inputs and uses them for training
-    lossFunction = torch.nn.CrossEntropyLoss()
-    weights = [weights1, weights2]
-    predictions = model(inputs, weights)
-    loss = lossFunction(predictions, labels)
-    averageLoss = torch.mean(loss)
+    # Access the weights
+    global w1
+    global b1
+    global w2
+    global b2
 
-    averageLoss.backward() # calculate the gradients
+    lossFunction = torch.nn.CrossEntropyLoss()
+    predictions = model(inputs, [[w1, b1], [w2, b2]])
+    loss = lossFunction(predictions, torch.tensor(labels))
+
+    loss.backward() # calculate the gradients
+
+    assert w1.grad != None
+    assert b1.grad != None
+    assert w2.grad != None
+    assert b2.grad != None
 
     # update the model weights using the most elegent code I have ever written
-    weights[0][0] = weights[0][0] - weights[0][0].grad
-    weights[0][1] = weights[0][1] - weights[0][1].grad
-    weights[1][0] = weights[1][0] - weights[1][0].grad
-    weights[1][1] = weights[1][1] - weights[1][1].grad
+    # no_grad prevents pytorch from treating this operation as a part of the forward pass
+    with torch.no_grad():
+        w1 -= w1.grad * LEARNING_RATE
+        b1 -= b1.grad * LEARNING_RATE
+        w2 -= w2.grad * LEARNING_RATE
+        b2 -= b2.grad * LEARNING_RATE
 
     # Reset gradients
-    weights[0][0].grad = None
-    weights[0][1].grad = None
-    weights[1][0].grad = None
-    weights[1][1].grad = None
+    w1.grad = None
+    b1.grad = None
+    w2.grad = None
+    b2.grad = None
 
-    return averageLoss
+    return loss
     
     
-
+# generate a batch of tensors
 def generateBatch(batchIndex, batchSize):
-    return images[batchSize * batchIndex : batchSize * (batchIndex + 1)], labels[batchSize * batchIndex : batchSize * (batchIndex + 1)]
+    return (trainingImages[batchSize * batchIndex : batchSize * (batchIndex + 1)]), (trainingLabels[batchSize * batchIndex : batchSize * (batchIndex + 1)])
 
-def trainingLoop(inputs, labels):
-    for batchCounter in range()
+def trainingLoop(epochs):
+    averageLoss = 0.
+    for epoch_counter in range(epochs):
+        print(f"Epoch {epoch_counter}")
+        for batchCounter in range(int(len(trainingImages) / BATCH_SIZE)):
+            imagesBatch, labelsBatch = generateBatch(batchCounter, BATCH_SIZE)
+            currentLoss = trainingStep(imagesBatch, labelsBatch).item()
+
+            averageLoss += currentLoss
+
+            if (batchCounter + 1) % 100 == 0:
+                averageLoss = averageLoss / 100.
+                print(f"Average loss at batch {batchCounter}: {averageLoss:.2f}. Learning rate {LEARNING_RATE}")
+
+                averageLoss = 0.
+
 
 def main():
-    var1 = torch.ones(size=(2, 4))
-    print(var1.shape)
-    var3 = torch.tensor([[1., 2., 3., 4.], 
-                         [4., 3., 2., 1.]])
-    print(var3.shape)
-    var2 = torch.normal(mean=var3, std=var1)
+    print("Starting training loop now!")
 
-    var1 = torch.ones(size=(8, 2))
+    # Iterate over training data 5 times
+    trainingLoop(7)
+    # model is now trained!
 
-    print(var1)
-    print(var2)
+    cumulativeSuccessValue = 0.
 
-    print(torch.matmul(var1, var2))
+    for i in range(len(testImages)):
+        prediction = torch.softmax(model([testImages[i],], [[w1, b1], [w2, b2]])[0], dim=0) # make a prediction
 
+        if int(torch.argmax(prediction).item()) is int(testLabels[i]):
+            cumulativeSuccessValue += 1
+        
+        print(f"Prediction: {torch.argmax(prediction)}, confidence: {(prediction.max().float()):.2f}, actual value: {testLabels[i]}")
+
+    print(f"Success rate: {(cumulativeSuccessValue / len(testImages)) * 100}%")
 main()

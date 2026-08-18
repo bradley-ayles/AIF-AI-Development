@@ -7,7 +7,7 @@ mnist = MNIST(root = 'data/', download = True, train = True, transform = transfo
 images = []
 labels = []
 for image, label in mnist:
-    images.append(image.flatten())
+    images.append(image)
     labels.append(label)
 
-print((images[0]))
+print((len(images)))

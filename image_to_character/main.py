@@ -8,9 +8,23 @@ import torchvision ## Contains some utilities for working with the image data
 from torchvision.datasets import EMNIST
 import torchvision.transforms as transforms
 
+
+# make the model run faster
+# import intel_extension_for_pytorch as ipex
+
+# Check if your 11th Gen iGPU is detected
+if torch.xpu.is_available():
+    device = torch.device("xpu")
+    print(f"Success! Using iGPU: {torch.xpu.get_device_name(0)}")
+    torch.set_default_device(device)
+else:
+    device = torch.device("cpu")
+    print("iGPU not found. Falling back to CPU.")
+
+
 # Size of batches for MBGD
 BATCH_SIZE = 128
-LEARNING_RATE = 1e-2
+LEARNING_RATE = 0.07
 
 print("Downloading EMNIST training data")
 
@@ -137,6 +151,15 @@ def trainingLoop(epochs):
 
                 averageLoss = 0.
 
+# creates human readable characters for convenience
+def emnist_to_char(label):
+    if 0 <= label <= 9:
+        return str(label)
+    elif 10 <= label <= 35:
+        return chr(label + 55)  # 10 maps to 'A' (ASCII 65)
+    elif 36 <= label <= 61:
+        return chr(label + 61)  # 36 maps to 'a' (ASCII 97)
+    return '?'
 
 def main():
     print("Starting training loop now!")
@@ -154,7 +177,7 @@ def main():
             cumulativeSuccessValue += 1
 
         if i % 100 == 0:
-            print(f"Prediction: {torch.argmax(prediction)}, confidence: {(prediction.max().float()):.2f}, actual value: {testLabels[i]}")
+            print(f"Prediction: {emnist_to_char(torch.argmax(prediction))}, confidence: {(prediction.max().float()):.2f}, actual value: {emnist_to_char(testLabels[i])}")
 
     print(f"Success rate: {(cumulativeSuccessValue / len(testImages)) * 100}%")
 main()

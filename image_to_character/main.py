@@ -1,7 +1,7 @@
 # This is a basic program aimed at solving the EMNIST dataset (this includes ). It is written as simply as I could, as it is my first program
 # There are no classes, as I wanted to keep it as simple as possible (even if it sacrifices scalability and code reusability)
 
-
+import sys
 
 import torch
 import torchvision ## Contains some utilities for working with the image data
@@ -32,6 +32,9 @@ emnist_test = byclass_train_data = EMNIST(
     # target_transform=None,
     download=False # Change to True to download data
 )
+
+# when downloading the training data, return right away
+# sys.exit()
 
 print("EMNIST training data downloaded")
 

@@ -137,6 +137,8 @@ def generateBatch(batchIndex, batchSize):
 
 def trainingLoop(epochs):
     averageLoss = 0.
+    accuracyHistory = []
+
     for epoch_counter in range(epochs):
         print(f"Epoch {epoch_counter}")
         for batchCounter in range(int(len(trainingImages) / BATCH_SIZE)):
@@ -150,6 +152,12 @@ def trainingLoop(epochs):
                 print(f"Average loss at batch {batchCounter}: {averageLoss:.2f}. Learning rate {LEARNING_RATE}")
 
                 averageLoss = 0.
+        
+        accuracyHistory.append(calculateAccuracy())
+
+    return accuracyHistory
+
+        
 
 # creates human readable characters for convenience
 def emnist_to_char(label):
@@ -161,11 +169,24 @@ def emnist_to_char(label):
         return chr(label + 61)  # 36 maps to 'a' (ASCII 97)
     return '?'
 
+def calculateAccuracy():
+    cumulativeSuccessValue = 0.
+
+    for i in range(len(testImages)):
+        prediction = torch.softmax(model([testImages[i],], [[w1, b1], [w2, b2]])[0], dim=0) # make a prediction
+
+        if int(torch.argmax(prediction).item()) is int(testLabels[i]):
+            cumulativeSuccessValue += 1
+    
+    cumulativeSuccessValue /= len(testImages)
+    return cumulativeSuccessValue
+
+
 def main():
     print("Starting training loop now!")
 
-    # Iterate over training data 5 times
-    trainingLoop(7)
+    # Iterate over training data 7 times
+    accuracyHistory = trainingLoop(7)
     # model is now trained!
 
     cumulativeSuccessValue = 0.
@@ -180,4 +201,8 @@ def main():
             print(f"Prediction: {emnist_to_char(torch.argmax(prediction))}, confidence: {(prediction.max().float()):.2f}, actual value: {emnist_to_char(testLabels[i])}")
 
     print(f"Success rate: {(cumulativeSuccessValue / len(testImages)) * 100}%")
+
+    for i, v in enumerate(accuracyHistory):
+        print(f"Epoch {i}, accuracy {v * 100.0}%")
+
 main()

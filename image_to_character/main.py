@@ -1,4 +1,4 @@
-# This is a basic program aimed at solving the EMNIST dataset (this includes ). It is written as simply as I could, as it is my first program
+# This is a basic program aimed at solving the EMNIST dataset (this includes letters as well as numbers). It is written as simply as I could, as it is my first program
 # There are no classes, as I wanted to keep it as simple as possible (even if it sacrifices scalability and code reusability)
 
 import sys

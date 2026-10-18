@@ -10,8 +10,8 @@ import csv
 # constants
 data_file_name = "Mt. Lofty weather data.csv"
 
-num_days_per_sample = 6 # 7 days per sample
-num_epochs = 15
+num_days_per_sample = 6 # 6 days per sample
+num_epochs = 15 # number of model training itterations
 
 test_data_split_location = 0.80 # 80% of the data is training data
 validation_data_split_location = 0.90 # 10% of the data is test data

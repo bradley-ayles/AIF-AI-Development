@@ -1,0 +1,51 @@
+Incase you cannot/don't want to run the AI model on your computer, here is the output of the program from when I ran it. 
+
+
+
+
+ayles@ayles-computer:~/Programming_Local/python/AIF/AIF-AI-Development$ /home/ayles/Programming_Local/python/AIF/AIF-AI-Development/AI-dev/bin/python /home/ayles/Programming_Local/python/AIF/AIF-AI-Development/keras/temperature_predictor/main.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792302753.047245  100164 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792302753.047415  100164 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+I0000 00:00:1792302753.079360  100164 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792302753.872048  100164 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1792302753.872327  100164 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+Reading data from file
+Length of training data 9780
+Length of labels 9780
+E0000 00:00:1792302754.815767  100164 cuda_platform.cc:52] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Epoch 1/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 1s 1ms/step - loss: 16.2810 - mean_absolute_error: 2.9479 - val_loss: 13.6654 - val_mean_absolute_error: 2.7563
+Epoch 2/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 758us/step - loss: 14.9152 - mean_absolute_error: 2.8673 - val_loss: 13.3203 - val_mean_absolute_error: 2.7388
+Epoch 3/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 755us/step - loss: 14.6361 - mean_absolute_error: 2.8522 - val_loss: 13.2700 - val_mean_absolute_error: 2.7214
+Epoch 4/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 757us/step - loss: 14.5267 - mean_absolute_error: 2.8452 - val_loss: 13.1620 - val_mean_absolute_error: 2.7091
+Epoch 5/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 754us/step - loss: 14.4653 - mean_absolute_error: 2.8334 - val_loss: 13.1270 - val_mean_absolute_error: 2.6986
+Epoch 6/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 756us/step - loss: 14.4172 - mean_absolute_error: 2.8289 - val_loss: 12.9800 - val_mean_absolute_error: 2.6959
+Epoch 7/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 757us/step - loss: 14.3479 - mean_absolute_error: 2.8293 - val_loss: 13.0951 - val_mean_absolute_error: 2.7016
+Epoch 8/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 751us/step - loss: 14.3059 - mean_absolute_error: 2.8204 - val_loss: 13.1101 - val_mean_absolute_error: 2.7029
+Epoch 9/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 755us/step - loss: 14.2368 - mean_absolute_error: 2.8164 - val_loss: 13.0804 - val_mean_absolute_error: 2.6917
+Epoch 10/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 757us/step - loss: 14.2333 - mean_absolute_error: 2.8196 - val_loss: 13.0886 - val_mean_absolute_error: 2.7085
+Epoch 11/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 765us/step - loss: 14.1663 - mean_absolute_error: 2.8043 - val_loss: 12.9827 - val_mean_absolute_error: 2.6915
+Epoch 12/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 749us/step - loss: 14.1329 - mean_absolute_error: 2.8111 - val_loss: 13.0099 - val_mean_absolute_error: 2.6877
+Epoch 13/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 748us/step - loss: 14.1154 - mean_absolute_error: 2.8071 - val_loss: 13.0587 - val_mean_absolute_error: 2.6939
+Epoch 14/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 760us/step - loss: 14.0870 - mean_absolute_error: 2.8042 - val_loss: 12.8794 - val_mean_absolute_error: 2.6948
+Epoch 15/15
+245/245 ━━━━━━━━━━━━━━━━━━━━ 0s 753us/step - loss: 14.0717 - mean_absolute_error: 2.8065 - val_loss: 13.1233 - val_mean_absolute_error: 2.6948
+31/31 ━━━━━━━━━━━━━━━━━━━━ 0s 819us/step - loss: 13.3368 - mean_absolute_error: 2.7110
+Test data loss: [13.336823463439941, 2.7110424041748047]
+Baseline MAE: 5.525232791900635

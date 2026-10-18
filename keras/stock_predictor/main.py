@@ -11,8 +11,8 @@ import csv
 # data_file_name = "/home/ayles/Programming_Local/python/AIF/AIF-AI-Development/keras/stock_predictor/Bitcoin Historical Data.csv" # daily bitcoin price
 data_file_name = "/home/ayles/Programming_Local/python/AIF/AIF-AI-Development/keras/stock_predictor/btc_1h.csv"
 
-num_days_per_sample = 12 # 100 days per sample
-num_epochs = 12
+num_days_per_sample = 2 # 100 days per sample
+num_epochs = 30
 
 test_data_split_location = 0.80 # 80% of the data is training data
 validation_data_split_location = 0.90 # 10% of the data is test data

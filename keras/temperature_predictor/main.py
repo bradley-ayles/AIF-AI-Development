@@ -86,18 +86,16 @@ test_loss = model.evaluate(x_test, y_test)
 print(f"Test data loss: {test_loss}")
 
 
-baseline = 0
 # Calculate the average error of a model that always predicts no change in temperature from the last temperature change
 # This is a baseline to compare the actual model to
+baselineList = []
 for i, val in enumerate([sublist[-1] for sublist in x_test]):
     abs_err = abs(val - y_test[i])
 
-    if baseline == 0:
-        baseline = abs_err
-    else:
-        baseline = (abs_err + baseline) / 2
+    baselineList.append(abs_err)
 
-print(f"Baseline MAE: {baseline}")
+# print the baseline
+print(f"Baseline MAE: { sum(baselineList) / len(baselineList) }")
 
 # Put the model training statistics into a nice graph (training_graph.png)
 mae_history = history.history["val_mean_absolute_error"]
@@ -108,3 +106,29 @@ plt.xlabel("Training Iterations")
 plt.ylabel("Validation Error Average (°C)")
 plt.title("Model Validation Error During Training")
 plt.savefig("training_graph.png")
+
+# Enter seven daily maximum temperatures to predict the next day's maximum.
+print("\nEnter 7 daily maximum temperatures in °C, from oldest to most recent.")
+manual_temps = []
+for day in range(1, num_days_per_sample + 2):
+    while True:
+        try:
+            temperature = float(input(f"Enter day {day} maximum temperature (°C): "))
+            if not np.isfinite(temperature):
+                raise ValueError
+        except ValueError:
+            print("Please enter a valid, finite number (for example, 23.5).")
+            continue
+        manual_temps.append(temperature)
+        break
+
+# The model expects six consecutive temperature changes, matching its training data.
+manual_changes = np.diff(manual_temps).reshape(1, num_days_per_sample)
+predicted_change = float(model.predict(manual_changes, verbose=0)[0][0])
+predicted_max_temp = manual_temps[-1] + predicted_change
+print(f"Predicted maximum temperature for the next day (day {num_days_per_sample + 2}): {predicted_max_temp:.1f} °C")
+
+actual_temp = float(input(f"Enter actual day {num_days_per_sample + 2} maximum temperature (°C): "))
+
+print(f"Prediction error: {abs(actual_temp - predicted_max_temp)} (°C)")
+

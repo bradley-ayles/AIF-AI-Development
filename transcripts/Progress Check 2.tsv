@@ -1,0 +1,212 @@
+start	end	text
+1370	9872	Okay, so welcome Bradley, it's progress check two, 27th of October, I'm Mrs. Maynard still, welcome.
+9932	15153	We'll start off by doing the same thing we did last time, so can you, yes sorry, you're welcome.
+16513	17693	They'll be great, they won't be great.
+18074	19554	Do you want to tell me your learning intention?
+19574	20954	What is it you're trying to find out?
+20974	27296	So my learning intention is to learn how to create two different types of AI models.
+27516	29396	Awesome, now did that change from the start?
+30797	41023	Yep, so originally my learning intention was just to simply learn how to create AR models, but I refined it to make it more specific.
+41343	42324	And you're making two?
+42784	42944	Yep.
+43024	44225	And you've done well, okay.
+44605	51008	So in terms of managing your time in class and at home, to make sure you're on track for your learning goal, how's it been going?
+52089	53290	Um, alright.
+53830	57632	Alright, so which bit's good and which bit's been challenging?
+58632	59613	Or is it all challenging?
+60260	79243	Well, it's all a little bit challenging, but I've been still using or trying to use my weekly planner to try and outline what I'm going to do each week, but it's been a little bit difficult holding myself accountable to actually
+80828	83289	I suppose you're going to be a bit kind to yourself too, because life happens.
+84189	87410	Sometimes we have these great plans and then something gets in the way.
+88351	90772	But do you think when you have got the time, are you using it well?
+94433	96614	Mostly, but I probably could be using it better.
+103162	106344	Finding the encouragement to just do it.
+106784	108705	Because it's hard going isn't it some of this?
+108785	112628	It's a lot of researchy sort of stuff.
+113268	119312	So to do this Bradley, to get your AI models going, what research tools have you used?
+120152	127417	So initially I was reading a really good book, Deep Learning with Python, that was
+128772	132955	really outlined the fundamentals of how everything works and that helped me get going.
+133275	138078	And then that helped me get started to write my first AI model but
+144665	163412	After writing that first one, I've mostly been moving away from the book a little bit, because the book continues to go into different other types of AI models, but I wanted to focus my attention on one specifically,
+164785	171996	So after writing the first one, the second one, that type of AR model, I wanted to focus on that and get that one working.
+172256	177744	Okay, so the book where you finished up with your book is pretty much as helpful as that could have been.
+177764	180688	What else did you do to continue with your learning?
+181629	183891	Like, research.
+185732	200703	So I would basically try and create a model from what I'd learned in the book and when inevitably I didn't know something or something didn't work as expected, I would research.
+201523	202864	That aspect of it.
+202904	205726	So online, or did you have people you could talk to?
+205826	206226	Online.
+207167	207747	Any people?
+207787	210249	Did you speak to anyone or interview anyone?
+210789	211770	No, not really.
+211950	212370	Not really?
+212571	213771	Don't know anyone in that field?
+213871	221136	Pretty narrow field I would suggest, and I have no idea who I'm going to point you in the direction of.
+221236	225639	So if you watched YouTube and you did internet stuff, was that helpful?
+225779	227200	Yes, very much so.
+227320	227621	Awesome.
+228801	236206	So in terms of keeping track of all that and somehow showing me what you've been doing, have you been using OneNote or have you done something different?
+236246	237747	I've just been using OneNote.
+238287	247453	I've been taking screenshots of what I've been doing, writing down when things haven't worked and what I've done to overcome those challenges.
+247573	247953	Excellent.
+247993	248894	Have you found it easy enough?
+249554	249734	Yep.
+249854	250555	It's not too bad.
+250695	250955	Good.
+251255	252396	Excellent.
+252516	258640	So in terms of making judgements and decisions, what specific perspectives
+260817	261558	understanding.
+261618	270744	Has there been any, I'm presuming if you're watching YouTube or you're reading articles, people probably got their own ideas or their own ways of suggesting to do things.
+271024	275067	If they haven't agreed, what have you done to sort of work out what to do?
+277108	279350	Well, usually they have agreed.
+279390	283132	I did come across some scenarios where they didn't.
+283713	287636	But basically I just try it and see what worked.
+288516	289257	So trial and error?
+289377	289517	Yep.
+291276	292236	Yeah.
+292596	295517	You could tweak little bits and it didn't completely ruin everything.
+295977	296157	Yeah.
+296477	296697	Good.
+296857	297118	Yeah.
+297218	298738	That's the good thing with code.
+298798	303839	It's very, like you can do one thing and it doesn't work, you just change it back.
+304199	304399	Yeah.
+304539	304840	Okay.
+304980	308881	So it doesn't wreck the whole run at just that particular command.
+308901	309581	Yeah.
+309721	310021	Okay.
+310641	313682	So obviously there's been a lot of challenge with that.
+313722	318223	You haven't, I'm presuming, made an AI model before and coding is probably pretty new.
+320324	332654	So that in itself is challenging, learning a different language almost, but has it been a major challenge along the way or a roadblock that's made it really difficult and you haven't been able to continue for a bit until you work things out?
+334876	337739	There was one point where I had to completely change direction.
+338039	342323	Also, I was originally going to create an
+344064	347985	AI model that could hopefully predict like stock market prices.
+348645	350505	About to make your millions with that one, yeah.
+350585	351805	Yep.
+352466	361987	Well, I spent probably a whole day trying to get that to work and turns out there's a reason that everyone's not using these.
+362567	366008	It's way too unpredictable and it can't really be done.
+366028	367608	So you can't trust it?
+367848	367988	No.
+369269	370409	Okay, I'm going to ask a question.
+370449	371489	I don't know if it's answerable.
+372545	374286	Why not?
+374426	379268	Why do you think it can't predict effectively?
+380489	381990	Too many variables that affect it.
+382950	388833	So it's affected by the news, what politicians are doing, what companies are doing.
+391000	392801	I suppose world events.
+393282	406450	And in theory it can be done except I was only giving it past prices and trying to get it to predict future prices but really you also need to feed into current news, newspapers, political stuff.
+407531	416417	So do you think there's a way potentially that that could be done or do you still think there's just way too much going on?
+417310	425857	Um, so after it didn't work, I did a little bit of research into whether it can be done.
+425897	432243	And there are companies that do it, except they use multi-million dollar supercomputers and feed in all this data and...
+432603	434205	So we're only short a few million dollars?
+434325	434505	Yep.
+434745	435065	Okay.
+435105	435305	Yeah.
+435906	436266	All right.
+436486	438368	So maybe in the future, but not yet.
+438508	439889	It's not going to be at the end of this.
+439909	440890	Okay.
+440910	444013	Well, I love that you looked into it and thought, you know, hey, can it be done?
+444678	450582	Any opportunities, anything that cropped up that was really cool or helpful that you didn't expect?
+458868	460409	Not really.
+460489	468655	Okay, in terms of strategies, perspectives and feedback and appraising them, so effectiveness.
+468815	470896	When you've had information that contradicts,
+474263	477831	What did you do about that to continue with your learning goal?
+478392	481500	How did you work out which bit to do or which bit to ignore?
+482913	497738	So I just tried it and tried the information and see if it worked, see if it didn't, learnt what sources are reliable and what ones aren't.
+499039	501159	Things like Google AI are very unreliable.
+502340	508582	So in terms of it worked or it didn't, is it as simple as that or is there a lot of grey where it sort of worked?
+509422	512785	And you need to improve or with code is it like yep it worked or no it didn't?
+512865	515007	Because I don't know because I don't know how to code it.
+515168	515868	It's a bit of both.
+516489	526538	So sometimes a program will either run or it will just give you an error and that's a simple worked or didn't work.
+527059	531262	But then once you do get it to run then you're not really
+532567	536590	it might not behave how you want or expected it to.
+536870	539792	Okay, so then you've got to realise that and go back.
+540153	544376	Well I suppose when computer says no, there's your answer.
+544396	547238	That's easier than it working and then not giving you what you want.
+548259	552602	Okay, so that sounds like a bit of trial and error and really understanding what you're trying to get out of it.
+552622	553422	With that,
+558442	567847	Do you think you recognised reasonably quickly and consistently that things probably weren't or were working how you wanted?
+567907	574551	Was that reasonably simple or did it take a while to go, hang on, this isn't what I want, and then had to go back a lot?
+574611	577933	Or was it pretty simple to just notice as you go?
+586748	588569	I don't know if it's an easy question or not.
+588609	591209	If it's not an easy question probably that's okay.
+591229	602132	I was just interested because I'm thinking that you're trying all these things and you're writing code and as you go if it's working it's not throwing up an error but then you know in 20 steps you might go hey that's not actually what I want.
+602152	605993	So how do you know how far back to go or what to change?
+608416	610297	It's all just a lot of trial and error.
+610837	628960	Like just seeing, just trying to change everything to isolate the problem and work out whether the problem is fundamentally something wrong with how you're trying to approach the situation or whether you've just got one line of code that just needs a number changing.
+629560	630360	Wow, okay.
+631320	635481	So if nothing else you've had an exercise in patience and persistence.
+636674	641419	Has that really tested your grip in a sense?
+641839	653551	Yeah, and like just like things that you wouldn't expect to happen like just trying to, I was trying to download some data from the Bureau of Meteorology and the website just kept crashing.
+653571	655172	It's like stuff like that.
+655412	659657	That's when you start getting cross with your computer I dare say.
+660494	662116	So keep all of that in mind.
+662136	667402	Sounds like a massive learning curve for you and a lot of work and a lot of trial and error.
+667422	676013	How do you feel you're progressing with your topic and your learning goal and your output?
+676413	676894	Pretty good.
+679870	684734	My output is pretty much complete.
+684794	687517	I have actually achieved what I originally intended.
+687737	688217	Awesome.
+688257	690860	So I've got two working AR models.
+693582	698086	But there is still so much more I want to do.
+698747	699627	So it's not finished.
+699988	703551	This is a bit of a project that's going to continue for a while.
+704542	705683	It'll probably never be finished.
+705963	707524	It's just how finished I want it to be.
+707604	708444	Yeah, that's true.
+708604	710486	But I've learnt a lot about everything.
+710506	711146	Yes, seems like you have.
+711646	718110	So this week's appraisal, in this week's six, in four weeks' time, is pretty much everything handed up.
+718150	720711	Are you on track?
+721031	721852	I should be just.
+722212	723232	Okay, so just.
+723292	725794	What's the bit that's bothering you?
+727015	728695	Balancing work with all other subjects.
+728795	730456	Yeah, that's not the only one you've got.
+730777	732017	Yeah, okay, awesome.
+734491	745840	Next steps, you said it's probably never going to be finished so I'm guessing you're still going to play around in this space and keep, I don't know what you call it, developing or progressing your models.
+747241	752025	In terms of this subject where it's been very much on you to organise your
+753065	756006	structure and your time management and your planning.
+757227	760748	I love hearing that you think you're going to get there and that your output's done.
+760788	762209	So you've obviously managed it.
+762569	763689	You've done this somehow.
+764730	766770	What have you learned about yourself as a learner?
+768331	769051	Time management.
+770592	772473	I definitely need to improve it.
+774313	777535	Holding myself accountable for actually getting stuff done.
+778869	781431	So you are doing it, you are making it.
+781451	782652	Do you think it's been a bit of pressure?
+782692	786755	Have you been a bit pressured and felt a bit stressed about it because of that, do you think?
+789577	791398	Yeah, maybe a little bit.
+791658	794720	So from my perspective, if you get it all handed up on time, it went well.
+794841	795041	Yeah.
+795201	798803	But what I'm hearing is that you feel like you haven't managed your time as best you could.
+799064	799244	No.
+799624	799884	Okay.
+800184	801445	What else have you learned about yourself?
+805070	809292	Did you surprise yourself with what you've achieved so far and how well you did?
+811853	823259	I've learnt a completely new concept of computer science, so that was actually pretty interesting.
+823459	826421	And a lot to learn in a reasonably short amount of time.
+827297	846255	So if you take some of the skills you've got now, if we start looking at it as the research, the time management, the organisation, the planning, the ideas that you've got along the way, what skills do you think will help you with other subjects for next year and in life in general?
+847585	849806	Time management and problem solving.
+850806	860287	It's definitely helped me work out how to solve problems and try to isolate the problem, research solutions, apply those solutions.
+861328	865148	Is that something new or something that you didn't expect to be so good at?
+865248	866528	How did you feel about that?
+870089	875570	I've been reasonably good at it for a while, but it definitely
+878161	896726	Definitely helped Actually that reminds me um year 10 I was probably overestimated things a little bit but now I
+898266	908931	Back then I was probably a bit ambitious in some of my goals, but now I've learnt that I've got limits as well.
+910012	918516	So maybe what I'm hearing is that you were able to work out what you could handle so it's more manageable and that you could meet your goal and you could measure it.
+918636	921938	So a smart goal rather than one that was just way too big.
+922738	925720	Is that something that you've proved as well?
+926860	931222	achievable and you want to, you'll get it done?
+933884	938927	Yeah, as long as, if it's achievable and I want to, that's probably the biggest thing.
+940027	942889	So that's important for you, perhaps, moving forward.
+942909	946311	For every Year 12 subject, you'll have an investigation as part of your work.
+947091	955676	So the key there, what I just heard, is that if you're passionate about it, or you really want to know, you'll do it, and you'll do it to a high standard.
+956121	966188	So when you do have those tasks come up, Bradley, make sure that you put the time in maybe at the start, definitely, just to think about, you know, am I actually really invested or interested in this?
+966208	970511	Because what I'm hearing is if you are, you're going to go game the busters and it's going to be great.
+970972	972753	I guess I've learnt that about myself as well.
+973013	973393	Yeah.
+973674	975175	So if I had given you a topic,
+975795	986627	you know had a bit of dog kennel or something you might not have pushed hard and been so invested so i think there's some real keys there for you moving forward yeah well done awesome job

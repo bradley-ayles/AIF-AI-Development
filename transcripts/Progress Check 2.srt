@@ -1,0 +1,844 @@
+1
+00:00:01,370 --> 00:00:09,872
+[SPEAKER_00]: Okay, so welcome Bradley, it's progress check two, 27th of October, I'm Mrs. Maynard still, welcome.
+
+2
+00:00:09,932 --> 00:00:15,153
+[SPEAKER_00]: We'll start off by doing the same thing we did last time, so can you, yes sorry, you're welcome.
+
+3
+00:00:16,513 --> 00:00:17,693
+[SPEAKER_00]: They'll be great, they won't be great.
+
+4
+00:00:18,074 --> 00:00:19,554
+[SPEAKER_00]: Do you want to tell me your learning intention?
+
+5
+00:00:19,574 --> 00:00:20,954
+[SPEAKER_00]: What is it you're trying to find out?
+
+6
+00:00:20,974 --> 00:00:27,296
+[SPEAKER_01]: So my learning intention is to learn how to create two different types of AI models.
+
+7
+00:00:27,516 --> 00:00:29,396
+[SPEAKER_00]: Awesome, now did that change from the start?
+
+8
+00:00:30,797 --> 00:00:41,023
+[SPEAKER_01]: Yep, so originally my learning intention was just to simply learn how to create AR models, but I refined it to make it more specific.
+
+9
+00:00:41,343 --> 00:00:42,324
+[SPEAKER_00]: And you're making two?
+
+10
+00:00:42,784 --> 00:00:42,944
+[SPEAKER_00]: Yep.
+
+11
+00:00:43,024 --> 00:00:44,225
+[SPEAKER_00]: And you've done well, okay.
+
+12
+00:00:44,605 --> 00:00:51,008
+[SPEAKER_00]: So in terms of managing your time in class and at home, to make sure you're on track for your learning goal, how's it been going?
+
+13
+00:00:52,089 --> 00:00:53,290
+[SPEAKER_01]: Um, alright.
+
+14
+00:00:53,830 --> 00:00:57,632
+[SPEAKER_00]: Alright, so which bit's good and which bit's been challenging?
+
+15
+00:00:58,632 --> 00:00:59,613
+[SPEAKER_00]: Or is it all challenging?
+
+16
+00:01:00,260 --> 00:01:19,243
+[SPEAKER_01]: Well, it's all a little bit challenging, but I've been still using or trying to use my weekly planner to try and outline what I'm going to do each week, but it's been a little bit difficult holding myself accountable to actually
+
+17
+00:01:20,828 --> 00:01:23,289
+[SPEAKER_00]: I suppose you're going to be a bit kind to yourself too, because life happens.
+
+18
+00:01:24,189 --> 00:01:27,410
+[SPEAKER_00]: Sometimes we have these great plans and then something gets in the way.
+
+19
+00:01:28,351 --> 00:01:30,772
+[SPEAKER_00]: But do you think when you have got the time, are you using it well?
+
+20
+00:01:34,433 --> 00:01:36,614
+[SPEAKER_01]: Mostly, but I probably could be using it better.
+
+21
+00:01:43,162 --> 00:01:46,344
+[SPEAKER_01]: Finding the encouragement to just do it.
+
+22
+00:01:46,784 --> 00:01:48,705
+[SPEAKER_00]: Because it's hard going isn't it some of this?
+
+23
+00:01:48,785 --> 00:01:52,628
+[SPEAKER_00]: It's a lot of researchy sort of stuff.
+
+24
+00:01:53,268 --> 00:01:59,312
+[SPEAKER_00]: So to do this Bradley, to get your AI models going, what research tools have you used?
+
+25
+00:02:00,152 --> 00:02:07,417
+[SPEAKER_01]: So initially I was reading a really good book, Deep Learning with Python, that was
+
+26
+00:02:08,772 --> 00:02:12,955
+[SPEAKER_01]: really outlined the fundamentals of how everything works and that helped me get going.
+
+27
+00:02:13,275 --> 00:02:18,078
+[SPEAKER_00]: And then that helped me get started to write my first AI model but
+
+28
+00:02:24,665 --> 00:02:43,412
+[SPEAKER_01]: After writing that first one, I've mostly been moving away from the book a little bit, because the book continues to go into different other types of AI models, but I wanted to focus my attention on one specifically,
+
+29
+00:02:44,785 --> 00:02:51,996
+[SPEAKER_01]: So after writing the first one, the second one, that type of AR model, I wanted to focus on that and get that one working.
+
+30
+00:02:52,256 --> 00:02:57,744
+[SPEAKER_00]: Okay, so the book where you finished up with your book is pretty much as helpful as that could have been.
+
+31
+00:02:57,764 --> 00:03:00,688
+[SPEAKER_00]: What else did you do to continue with your learning?
+
+32
+00:03:01,629 --> 00:03:03,891
+[SPEAKER_01]: Like, research.
+
+33
+00:03:05,732 --> 00:03:20,703
+[SPEAKER_01]: So I would basically try and create a model from what I'd learned in the book and when inevitably I didn't know something or something didn't work as expected, I would research.
+
+34
+00:03:21,523 --> 00:03:22,864
+[SPEAKER_01]: That aspect of it.
+
+35
+00:03:22,904 --> 00:03:25,726
+[SPEAKER_00]: So online, or did you have people you could talk to?
+
+36
+00:03:25,826 --> 00:03:26,226
+[SPEAKER_01]: Online.
+
+37
+00:03:27,167 --> 00:03:27,747
+[SPEAKER_00]: Any people?
+
+38
+00:03:27,787 --> 00:03:30,249
+[SPEAKER_00]: Did you speak to anyone or interview anyone?
+
+39
+00:03:30,789 --> 00:03:31,770
+[SPEAKER_01]: No, not really.
+
+40
+00:03:31,950 --> 00:03:32,370
+[SPEAKER_00]: Not really?
+
+41
+00:03:32,571 --> 00:03:33,771
+[SPEAKER_00]: Don't know anyone in that field?
+
+42
+00:03:33,871 --> 00:03:41,136
+[SPEAKER_00]: Pretty narrow field I would suggest, and I have no idea who I'm going to point you in the direction of.
+
+43
+00:03:41,236 --> 00:03:45,639
+[SPEAKER_00]: So if you watched YouTube and you did internet stuff, was that helpful?
+
+44
+00:03:45,779 --> 00:03:47,200
+[SPEAKER_01]: Yes, very much so.
+
+45
+00:03:47,320 --> 00:03:47,621
+[SPEAKER_00]: Awesome.
+
+46
+00:03:48,801 --> 00:03:56,206
+[SPEAKER_00]: So in terms of keeping track of all that and somehow showing me what you've been doing, have you been using OneNote or have you done something different?
+
+47
+00:03:56,246 --> 00:03:57,747
+[SPEAKER_01]: I've just been using OneNote.
+
+48
+00:03:58,287 --> 00:04:07,453
+[SPEAKER_01]: I've been taking screenshots of what I've been doing, writing down when things haven't worked and what I've done to overcome those challenges.
+
+49
+00:04:07,573 --> 00:04:07,953
+[SPEAKER_00]: Excellent.
+
+50
+00:04:07,993 --> 00:04:08,894
+[SPEAKER_00]: Have you found it easy enough?
+
+51
+00:04:09,554 --> 00:04:09,734
+[SPEAKER_01]: Yep.
+
+52
+00:04:09,854 --> 00:04:10,555
+[SPEAKER_01]: It's not too bad.
+
+53
+00:04:10,695 --> 00:04:10,955
+[SPEAKER_01]: Good.
+
+54
+00:04:11,255 --> 00:04:12,396
+[SPEAKER_00]: Excellent.
+
+55
+00:04:12,516 --> 00:04:18,640
+[SPEAKER_00]: So in terms of making judgements and decisions, what specific perspectives
+
+56
+00:04:20,817 --> 00:04:21,558
+[SPEAKER_00]: understanding.
+
+57
+00:04:21,618 --> 00:04:30,744
+[SPEAKER_00]: Has there been any, I'm presuming if you're watching YouTube or you're reading articles, people probably got their own ideas or their own ways of suggesting to do things.
+
+58
+00:04:31,024 --> 00:04:35,067
+[SPEAKER_00]: If they haven't agreed, what have you done to sort of work out what to do?
+
+59
+00:04:37,108 --> 00:04:39,350
+[SPEAKER_01]: Well, usually they have agreed.
+
+60
+00:04:39,390 --> 00:04:43,132
+[SPEAKER_01]: I did come across some scenarios where they didn't.
+
+61
+00:04:43,713 --> 00:04:47,636
+[SPEAKER_01]: But basically I just try it and see what worked.
+
+62
+00:04:48,516 --> 00:04:49,257
+[SPEAKER_00]: So trial and error?
+
+63
+00:04:49,377 --> 00:04:49,517
+[SPEAKER_00]: Yep.
+
+64
+00:04:51,276 --> 00:04:52,236
+[SPEAKER_00]: Yeah.
+
+65
+00:04:52,596 --> 00:04:55,517
+[SPEAKER_00]: You could tweak little bits and it didn't completely ruin everything.
+
+66
+00:04:55,977 --> 00:04:56,157
+[SPEAKER_01]: Yeah.
+
+67
+00:04:56,477 --> 00:04:56,697
+[SPEAKER_00]: Good.
+
+68
+00:04:56,857 --> 00:04:57,118
+[SPEAKER_01]: Yeah.
+
+69
+00:04:57,218 --> 00:04:58,738
+[SPEAKER_01]: That's the good thing with code.
+
+70
+00:04:58,798 --> 00:05:03,839
+[SPEAKER_01]: It's very, like you can do one thing and it doesn't work, you just change it back.
+
+71
+00:05:04,199 --> 00:05:04,399
+[SPEAKER_01]: Yeah.
+
+72
+00:05:04,539 --> 00:05:04,840
+[SPEAKER_01]: Okay.
+
+73
+00:05:04,980 --> 00:05:08,881
+[SPEAKER_00]: So it doesn't wreck the whole run at just that particular command.
+
+74
+00:05:08,901 --> 00:05:09,581
+[SPEAKER_00]: Yeah.
+
+75
+00:05:09,721 --> 00:05:10,021
+[SPEAKER_00]: Okay.
+
+76
+00:05:10,641 --> 00:05:13,682
+[SPEAKER_00]: So obviously there's been a lot of challenge with that.
+
+77
+00:05:13,722 --> 00:05:18,223
+[SPEAKER_00]: You haven't, I'm presuming, made an AI model before and coding is probably pretty new.
+
+78
+00:05:20,324 --> 00:05:32,654
+[SPEAKER_00]: So that in itself is challenging, learning a different language almost, but has it been a major challenge along the way or a roadblock that's made it really difficult and you haven't been able to continue for a bit until you work things out?
+
+79
+00:05:34,876 --> 00:05:37,739
+[SPEAKER_01]: There was one point where I had to completely change direction.
+
+80
+00:05:38,039 --> 00:05:42,323
+[SPEAKER_01]: Also, I was originally going to create an
+
+81
+00:05:44,064 --> 00:05:47,985
+[SPEAKER_01]: AI model that could hopefully predict like stock market prices.
+
+82
+00:05:48,645 --> 00:05:50,505
+[SPEAKER_00]: About to make your millions with that one, yeah.
+
+83
+00:05:50,585 --> 00:05:51,805
+[SPEAKER_01]: Yep.
+
+84
+00:05:52,466 --> 00:06:01,987
+[SPEAKER_01]: Well, I spent probably a whole day trying to get that to work and turns out there's a reason that everyone's not using these.
+
+85
+00:06:02,567 --> 00:06:06,008
+[SPEAKER_01]: It's way too unpredictable and it can't really be done.
+
+86
+00:06:06,028 --> 00:06:07,608
+[SPEAKER_01]: So you can't trust it?
+
+87
+00:06:07,848 --> 00:06:07,988
+[SPEAKER_01]: No.
+
+88
+00:06:09,269 --> 00:06:10,409
+[SPEAKER_00]: Okay, I'm going to ask a question.
+
+89
+00:06:10,449 --> 00:06:11,489
+[SPEAKER_01]: I don't know if it's answerable.
+
+90
+00:06:12,545 --> 00:06:14,286
+[SPEAKER_00]: Why not?
+
+91
+00:06:14,426 --> 00:06:19,268
+[SPEAKER_00]: Why do you think it can't predict effectively?
+
+92
+00:06:20,489 --> 00:06:21,990
+[SPEAKER_01]: Too many variables that affect it.
+
+93
+00:06:22,950 --> 00:06:28,833
+[SPEAKER_01]: So it's affected by the news, what politicians are doing, what companies are doing.
+
+94
+00:06:31,000 --> 00:06:32,801
+[SPEAKER_00]: I suppose world events.
+
+95
+00:06:33,282 --> 00:06:46,450
+[SPEAKER_01]: And in theory it can be done except I was only giving it past prices and trying to get it to predict future prices but really you also need to feed into current news, newspapers, political stuff.
+
+96
+00:06:47,531 --> 00:06:56,417
+[SPEAKER_00]: So do you think there's a way potentially that that could be done or do you still think there's just way too much going on?
+
+97
+00:06:57,310 --> 00:07:05,857
+[SPEAKER_01]: Um, so after it didn't work, I did a little bit of research into whether it can be done.
+
+98
+00:07:05,897 --> 00:07:12,243
+[SPEAKER_01]: And there are companies that do it, except they use multi-million dollar supercomputers and feed in all this data and...
+
+99
+00:07:12,603 --> 00:07:14,205
+[SPEAKER_00]: So we're only short a few million dollars?
+
+100
+00:07:14,325 --> 00:07:14,505
+[SPEAKER_00]: Yep.
+
+101
+00:07:14,745 --> 00:07:15,065
+[SPEAKER_00]: Okay.
+
+102
+00:07:15,105 --> 00:07:15,305
+[SPEAKER_00]: Yeah.
+
+103
+00:07:15,906 --> 00:07:16,266
+[SPEAKER_00]: All right.
+
+104
+00:07:16,486 --> 00:07:18,368
+[SPEAKER_00]: So maybe in the future, but not yet.
+
+105
+00:07:18,508 --> 00:07:19,889
+[SPEAKER_00]: It's not going to be at the end of this.
+
+106
+00:07:19,909 --> 00:07:20,890
+[SPEAKER_00]: Okay.
+
+107
+00:07:20,910 --> 00:07:24,013
+[SPEAKER_00]: Well, I love that you looked into it and thought, you know, hey, can it be done?
+
+108
+00:07:24,678 --> 00:07:30,582
+[SPEAKER_00]: Any opportunities, anything that cropped up that was really cool or helpful that you didn't expect?
+
+109
+00:07:38,868 --> 00:07:40,409
+[SPEAKER_01]: Not really.
+
+110
+00:07:40,489 --> 00:07:48,655
+[SPEAKER_00]: Okay, in terms of strategies, perspectives and feedback and appraising them, so effectiveness.
+
+111
+00:07:48,815 --> 00:07:50,896
+[SPEAKER_00]: When you've had information that contradicts,
+
+112
+00:07:54,263 --> 00:07:57,831
+[SPEAKER_00]: What did you do about that to continue with your learning goal?
+
+113
+00:07:58,392 --> 00:08:01,500
+[SPEAKER_00]: How did you work out which bit to do or which bit to ignore?
+
+114
+00:08:02,913 --> 00:08:17,738
+[SPEAKER_01]: So I just tried it and tried the information and see if it worked, see if it didn't, learnt what sources are reliable and what ones aren't.
+
+115
+00:08:19,039 --> 00:08:21,159
+[SPEAKER_01]: Things like Google AI are very unreliable.
+
+116
+00:08:22,340 --> 00:08:28,582
+[SPEAKER_00]: So in terms of it worked or it didn't, is it as simple as that or is there a lot of grey where it sort of worked?
+
+117
+00:08:29,422 --> 00:08:32,785
+[SPEAKER_00]: And you need to improve or with code is it like yep it worked or no it didn't?
+
+118
+00:08:32,865 --> 00:08:35,007
+[SPEAKER_00]: Because I don't know because I don't know how to code it.
+
+119
+00:08:35,168 --> 00:08:35,868
+[SPEAKER_01]: It's a bit of both.
+
+120
+00:08:36,489 --> 00:08:46,538
+[SPEAKER_01]: So sometimes a program will either run or it will just give you an error and that's a simple worked or didn't work.
+
+121
+00:08:47,059 --> 00:08:51,262
+[SPEAKER_01]: But then once you do get it to run then you're not really
+
+122
+00:08:52,567 --> 00:08:56,590
+[SPEAKER_01]: it might not behave how you want or expected it to.
+
+123
+00:08:56,870 --> 00:08:59,792
+[SPEAKER_00]: Okay, so then you've got to realise that and go back.
+
+124
+00:09:00,153 --> 00:09:04,376
+[SPEAKER_00]: Well I suppose when computer says no, there's your answer.
+
+125
+00:09:04,396 --> 00:09:07,238
+[SPEAKER_00]: That's easier than it working and then not giving you what you want.
+
+126
+00:09:08,259 --> 00:09:12,602
+[SPEAKER_00]: Okay, so that sounds like a bit of trial and error and really understanding what you're trying to get out of it.
+
+127
+00:09:12,622 --> 00:09:13,422
+[SPEAKER_00]: With that,
+
+128
+00:09:18,442 --> 00:09:27,847
+[SPEAKER_00]: Do you think you recognised reasonably quickly and consistently that things probably weren't or were working how you wanted?
+
+129
+00:09:27,907 --> 00:09:34,551
+[SPEAKER_00]: Was that reasonably simple or did it take a while to go, hang on, this isn't what I want, and then had to go back a lot?
+
+130
+00:09:34,611 --> 00:09:37,933
+[SPEAKER_00]: Or was it pretty simple to just notice as you go?
+
+131
+00:09:46,748 --> 00:09:48,569
+[SPEAKER_00]: I don't know if it's an easy question or not.
+
+132
+00:09:48,609 --> 00:09:51,209
+[SPEAKER_00]: If it's not an easy question probably that's okay.
+
+133
+00:09:51,229 --> 00:10:02,132
+[SPEAKER_00]: I was just interested because I'm thinking that you're trying all these things and you're writing code and as you go if it's working it's not throwing up an error but then you know in 20 steps you might go hey that's not actually what I want.
+
+134
+00:10:02,152 --> 00:10:05,993
+[SPEAKER_00]: So how do you know how far back to go or what to change?
+
+135
+00:10:08,416 --> 00:10:10,297
+[SPEAKER_01]: It's all just a lot of trial and error.
+
+136
+00:10:10,837 --> 00:10:28,960
+[SPEAKER_01]: Like just seeing, just trying to change everything to isolate the problem and work out whether the problem is fundamentally something wrong with how you're trying to approach the situation or whether you've just got one line of code that just needs a number changing.
+
+137
+00:10:29,560 --> 00:10:30,360
+[SPEAKER_00]: Wow, okay.
+
+138
+00:10:31,320 --> 00:10:35,481
+[SPEAKER_00]: So if nothing else you've had an exercise in patience and persistence.
+
+139
+00:10:36,674 --> 00:10:41,419
+[SPEAKER_00]: Has that really tested your grip in a sense?
+
+140
+00:10:41,839 --> 00:10:53,551
+[SPEAKER_01]: Yeah, and like just like things that you wouldn't expect to happen like just trying to, I was trying to download some data from the Bureau of Meteorology and the website just kept crashing.
+
+141
+00:10:53,571 --> 00:10:55,172
+[SPEAKER_01]: It's like stuff like that.
+
+142
+00:10:55,412 --> 00:10:59,657
+[SPEAKER_00]: That's when you start getting cross with your computer I dare say.
+
+143
+00:11:00,494 --> 00:11:02,116
+[SPEAKER_00]: So keep all of that in mind.
+
+144
+00:11:02,136 --> 00:11:07,402
+[SPEAKER_00]: Sounds like a massive learning curve for you and a lot of work and a lot of trial and error.
+
+145
+00:11:07,422 --> 00:11:16,013
+[SPEAKER_00]: How do you feel you're progressing with your topic and your learning goal and your output?
+
+146
+00:11:16,413 --> 00:11:16,894
+[SPEAKER_01]: Pretty good.
+
+147
+00:11:19,870 --> 00:11:24,734
+[SPEAKER_01]: My output is pretty much complete.
+
+148
+00:11:24,794 --> 00:11:27,517
+[SPEAKER_01]: I have actually achieved what I originally intended.
+
+149
+00:11:27,737 --> 00:11:28,217
+[SPEAKER_01]: Awesome.
+
+150
+00:11:28,257 --> 00:11:30,860
+[SPEAKER_01]: So I've got two working AR models.
+
+151
+00:11:33,582 --> 00:11:38,086
+[SPEAKER_01]: But there is still so much more I want to do.
+
+152
+00:11:38,747 --> 00:11:39,627
+[SPEAKER_00]: So it's not finished.
+
+153
+00:11:39,988 --> 00:11:43,551
+[SPEAKER_00]: This is a bit of a project that's going to continue for a while.
+
+154
+00:11:44,542 --> 00:11:45,683
+[SPEAKER_01]: It'll probably never be finished.
+
+155
+00:11:45,963 --> 00:11:47,524
+[SPEAKER_01]: It's just how finished I want it to be.
+
+156
+00:11:47,604 --> 00:11:48,444
+[SPEAKER_00]: Yeah, that's true.
+
+157
+00:11:48,604 --> 00:11:50,486
+[SPEAKER_01]: But I've learnt a lot about everything.
+
+158
+00:11:50,506 --> 00:11:51,146
+[SPEAKER_00]: Yes, seems like you have.
+
+159
+00:11:51,646 --> 00:11:58,110
+[SPEAKER_00]: So this week's appraisal, in this week's six, in four weeks' time, is pretty much everything handed up.
+
+160
+00:11:58,150 --> 00:12:00,711
+[SPEAKER_00]: Are you on track?
+
+161
+00:12:01,031 --> 00:12:01,852
+[SPEAKER_01]: I should be just.
+
+162
+00:12:02,212 --> 00:12:03,232
+[SPEAKER_00]: Okay, so just.
+
+163
+00:12:03,292 --> 00:12:05,794
+[SPEAKER_00]: What's the bit that's bothering you?
+
+164
+00:12:07,015 --> 00:12:08,695
+[SPEAKER_01]: Balancing work with all other subjects.
+
+165
+00:12:08,795 --> 00:12:10,456
+[SPEAKER_00]: Yeah, that's not the only one you've got.
+
+166
+00:12:10,777 --> 00:12:12,017
+[SPEAKER_00]: Yeah, okay, awesome.
+
+167
+00:12:14,491 --> 00:12:25,840
+[SPEAKER_00]: Next steps, you said it's probably never going to be finished so I'm guessing you're still going to play around in this space and keep, I don't know what you call it, developing or progressing your models.
+
+168
+00:12:27,241 --> 00:12:32,025
+[SPEAKER_00]: In terms of this subject where it's been very much on you to organise your
+
+169
+00:12:33,065 --> 00:12:36,006
+[SPEAKER_00]: structure and your time management and your planning.
+
+170
+00:12:37,227 --> 00:12:40,748
+[SPEAKER_00]: I love hearing that you think you're going to get there and that your output's done.
+
+171
+00:12:40,788 --> 00:12:42,209
+[SPEAKER_00]: So you've obviously managed it.
+
+172
+00:12:42,569 --> 00:12:43,689
+[SPEAKER_00]: You've done this somehow.
+
+173
+00:12:44,730 --> 00:12:46,770
+[SPEAKER_00]: What have you learned about yourself as a learner?
+
+174
+00:12:48,331 --> 00:12:49,051
+[SPEAKER_01]: Time management.
+
+175
+00:12:50,592 --> 00:12:52,473
+[SPEAKER_01]: I definitely need to improve it.
+
+176
+00:12:54,313 --> 00:12:57,535
+[SPEAKER_01]: Holding myself accountable for actually getting stuff done.
+
+177
+00:12:58,869 --> 00:13:01,431
+[SPEAKER_00]: So you are doing it, you are making it.
+
+178
+00:13:01,451 --> 00:13:02,652
+[SPEAKER_00]: Do you think it's been a bit of pressure?
+
+179
+00:13:02,692 --> 00:13:06,755
+[SPEAKER_00]: Have you been a bit pressured and felt a bit stressed about it because of that, do you think?
+
+180
+00:13:09,577 --> 00:13:11,398
+[SPEAKER_00]: Yeah, maybe a little bit.
+
+181
+00:13:11,658 --> 00:13:14,720
+[SPEAKER_00]: So from my perspective, if you get it all handed up on time, it went well.
+
+182
+00:13:14,841 --> 00:13:15,041
+[SPEAKER_00]: Yeah.
+
+183
+00:13:15,201 --> 00:13:18,803
+[SPEAKER_00]: But what I'm hearing is that you feel like you haven't managed your time as best you could.
+
+184
+00:13:19,064 --> 00:13:19,244
+[SPEAKER_00]: No.
+
+185
+00:13:19,624 --> 00:13:19,884
+[SPEAKER_00]: Okay.
+
+186
+00:13:20,184 --> 00:13:21,445
+[SPEAKER_00]: What else have you learned about yourself?
+
+187
+00:13:25,070 --> 00:13:29,292
+[SPEAKER_00]: Did you surprise yourself with what you've achieved so far and how well you did?
+
+188
+00:13:31,853 --> 00:13:43,259
+[SPEAKER_01]: I've learnt a completely new concept of computer science, so that was actually pretty interesting.
+
+189
+00:13:43,459 --> 00:13:46,421
+[SPEAKER_00]: And a lot to learn in a reasonably short amount of time.
+
+190
+00:13:47,297 --> 00:14:06,255
+[SPEAKER_00]: So if you take some of the skills you've got now, if we start looking at it as the research, the time management, the organisation, the planning, the ideas that you've got along the way, what skills do you think will help you with other subjects for next year and in life in general?
+
+191
+00:14:07,585 --> 00:14:09,806
+[SPEAKER_01]: Time management and problem solving.
+
+192
+00:14:10,806 --> 00:14:20,287
+[SPEAKER_01]: It's definitely helped me work out how to solve problems and try to isolate the problem, research solutions, apply those solutions.
+
+193
+00:14:21,328 --> 00:14:25,148
+[SPEAKER_00]: Is that something new or something that you didn't expect to be so good at?
+
+194
+00:14:25,248 --> 00:14:26,528
+[SPEAKER_00]: How did you feel about that?
+
+195
+00:14:30,089 --> 00:14:35,570
+[SPEAKER_01]: I've been reasonably good at it for a while, but it definitely
+
+196
+00:14:38,161 --> 00:14:56,726
+[SPEAKER_01]: Definitely helped Actually that reminds me um year 10 I was probably overestimated things a little bit but now I
+
+197
+00:14:58,266 --> 00:15:08,931
+[SPEAKER_01]: Back then I was probably a bit ambitious in some of my goals, but now I've learnt that I've got limits as well.
+
+198
+00:15:10,012 --> 00:15:18,516
+[SPEAKER_00]: So maybe what I'm hearing is that you were able to work out what you could handle so it's more manageable and that you could meet your goal and you could measure it.
+
+199
+00:15:18,636 --> 00:15:21,938
+[SPEAKER_00]: So a smart goal rather than one that was just way too big.
+
+200
+00:15:22,738 --> 00:15:25,720
+[SPEAKER_00]: Is that something that you've proved as well?
+
+201
+00:15:26,860 --> 00:15:31,222
+[SPEAKER_00]: achievable and you want to, you'll get it done?
+
+202
+00:15:33,884 --> 00:15:38,927
+[SPEAKER_01]: Yeah, as long as, if it's achievable and I want to, that's probably the biggest thing.
+
+203
+00:15:40,027 --> 00:15:42,889
+[SPEAKER_00]: So that's important for you, perhaps, moving forward.
+
+204
+00:15:42,909 --> 00:15:46,311
+[SPEAKER_00]: For every Year 12 subject, you'll have an investigation as part of your work.
+
+205
+00:15:47,091 --> 00:15:55,676
+[SPEAKER_00]: So the key there, what I just heard, is that if you're passionate about it, or you really want to know, you'll do it, and you'll do it to a high standard.
+
+206
+00:15:56,121 --> 00:16:06,188
+[SPEAKER_00]: So when you do have those tasks come up, Bradley, make sure that you put the time in maybe at the start, definitely, just to think about, you know, am I actually really invested or interested in this?
+
+207
+00:16:06,208 --> 00:16:10,511
+[SPEAKER_00]: Because what I'm hearing is if you are, you're going to go game the busters and it's going to be great.
+
+208
+00:16:10,972 --> 00:16:12,753
+[SPEAKER_01]: I guess I've learnt that about myself as well.
+
+209
+00:16:13,013 --> 00:16:13,393
+[SPEAKER_00]: Yeah.
+
+210
+00:16:13,674 --> 00:16:15,175
+[SPEAKER_00]: So if I had given you a topic,
+
+211
+00:16:15,795 --> 00:16:26,627
+[SPEAKER_00]: you know had a bit of dog kennel or something you might not have pushed hard and been so invested so i think there's some real keys there for you moving forward yeah well done awesome job
+

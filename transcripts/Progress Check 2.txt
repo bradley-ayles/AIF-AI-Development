@@ -1,0 +1,211 @@
+[SPEAKER_00]: Okay, so welcome Bradley, it's progress check two, 27th of October, I'm Mrs. Maynard still, welcome.
+[SPEAKER_00]: We'll start off by doing the same thing we did last time, so can you, yes sorry, you're welcome.
+[SPEAKER_00]: They'll be great, they won't be great.
+[SPEAKER_00]: Do you want to tell me your learning intention?
+[SPEAKER_00]: What is it you're trying to find out?
+[SPEAKER_01]: So my learning intention is to learn how to create two different types of AI models.
+[SPEAKER_00]: Awesome, now did that change from the start?
+[SPEAKER_01]: Yep, so originally my learning intention was just to simply learn how to create AR models, but I refined it to make it more specific.
+[SPEAKER_00]: And you're making two?
+[SPEAKER_00]: Yep.
+[SPEAKER_00]: And you've done well, okay.
+[SPEAKER_00]: So in terms of managing your time in class and at home, to make sure you're on track for your learning goal, how's it been going?
+[SPEAKER_01]: Um, alright.
+[SPEAKER_00]: Alright, so which bit's good and which bit's been challenging?
+[SPEAKER_00]: Or is it all challenging?
+[SPEAKER_01]: Well, it's all a little bit challenging, but I've been still using or trying to use my weekly planner to try and outline what I'm going to do each week, but it's been a little bit difficult holding myself accountable to actually
+[SPEAKER_00]: I suppose you're going to be a bit kind to yourself too, because life happens.
+[SPEAKER_00]: Sometimes we have these great plans and then something gets in the way.
+[SPEAKER_00]: But do you think when you have got the time, are you using it well?
+[SPEAKER_01]: Mostly, but I probably could be using it better.
+[SPEAKER_01]: Finding the encouragement to just do it.
+[SPEAKER_00]: Because it's hard going isn't it some of this?
+[SPEAKER_00]: It's a lot of researchy sort of stuff.
+[SPEAKER_00]: So to do this Bradley, to get your AI models going, what research tools have you used?
+[SPEAKER_01]: So initially I was reading a really good book, Deep Learning with Python, that was
+[SPEAKER_01]: really outlined the fundamentals of how everything works and that helped me get going.
+[SPEAKER_00]: And then that helped me get started to write my first AI model but
+[SPEAKER_01]: After writing that first one, I've mostly been moving away from the book a little bit, because the book continues to go into different other types of AI models, but I wanted to focus my attention on one specifically,
+[SPEAKER_01]: So after writing the first one, the second one, that type of AR model, I wanted to focus on that and get that one working.
+[SPEAKER_00]: Okay, so the book where you finished up with your book is pretty much as helpful as that could have been.
+[SPEAKER_00]: What else did you do to continue with your learning?
+[SPEAKER_01]: Like, research.
+[SPEAKER_01]: So I would basically try and create a model from what I'd learned in the book and when inevitably I didn't know something or something didn't work as expected, I would research.
+[SPEAKER_01]: That aspect of it.
+[SPEAKER_00]: So online, or did you have people you could talk to?
+[SPEAKER_01]: Online.
+[SPEAKER_00]: Any people?
+[SPEAKER_00]: Did you speak to anyone or interview anyone?
+[SPEAKER_01]: No, not really.
+[SPEAKER_00]: Not really?
+[SPEAKER_00]: Don't know anyone in that field?
+[SPEAKER_00]: Pretty narrow field I would suggest, and I have no idea who I'm going to point you in the direction of.
+[SPEAKER_00]: So if you watched YouTube and you did internet stuff, was that helpful?
+[SPEAKER_01]: Yes, very much so.
+[SPEAKER_00]: Awesome.
+[SPEAKER_00]: So in terms of keeping track of all that and somehow showing me what you've been doing, have you been using OneNote or have you done something different?
+[SPEAKER_01]: I've just been using OneNote.
+[SPEAKER_01]: I've been taking screenshots of what I've been doing, writing down when things haven't worked and what I've done to overcome those challenges.
+[SPEAKER_00]: Excellent.
+[SPEAKER_00]: Have you found it easy enough?
+[SPEAKER_01]: Yep.
+[SPEAKER_01]: It's not too bad.
+[SPEAKER_01]: Good.
+[SPEAKER_00]: Excellent.
+[SPEAKER_00]: So in terms of making judgements and decisions, what specific perspectives
+[SPEAKER_00]: understanding.
+[SPEAKER_00]: Has there been any, I'm presuming if you're watching YouTube or you're reading articles, people probably got their own ideas or their own ways of suggesting to do things.
+[SPEAKER_00]: If they haven't agreed, what have you done to sort of work out what to do?
+[SPEAKER_01]: Well, usually they have agreed.
+[SPEAKER_01]: I did come across some scenarios where they didn't.
+[SPEAKER_01]: But basically I just try it and see what worked.
+[SPEAKER_00]: So trial and error?
+[SPEAKER_00]: Yep.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: You could tweak little bits and it didn't completely ruin everything.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: Good.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: That's the good thing with code.
+[SPEAKER_01]: It's very, like you can do one thing and it doesn't work, you just change it back.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Okay.
+[SPEAKER_00]: So it doesn't wreck the whole run at just that particular command.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: So obviously there's been a lot of challenge with that.
+[SPEAKER_00]: You haven't, I'm presuming, made an AI model before and coding is probably pretty new.
+[SPEAKER_00]: So that in itself is challenging, learning a different language almost, but has it been a major challenge along the way or a roadblock that's made it really difficult and you haven't been able to continue for a bit until you work things out?
+[SPEAKER_01]: There was one point where I had to completely change direction.
+[SPEAKER_01]: Also, I was originally going to create an
+[SPEAKER_01]: AI model that could hopefully predict like stock market prices.
+[SPEAKER_00]: About to make your millions with that one, yeah.
+[SPEAKER_01]: Yep.
+[SPEAKER_01]: Well, I spent probably a whole day trying to get that to work and turns out there's a reason that everyone's not using these.
+[SPEAKER_01]: It's way too unpredictable and it can't really be done.
+[SPEAKER_01]: So you can't trust it?
+[SPEAKER_01]: No.
+[SPEAKER_00]: Okay, I'm going to ask a question.
+[SPEAKER_01]: I don't know if it's answerable.
+[SPEAKER_00]: Why not?
+[SPEAKER_00]: Why do you think it can't predict effectively?
+[SPEAKER_01]: Too many variables that affect it.
+[SPEAKER_01]: So it's affected by the news, what politicians are doing, what companies are doing.
+[SPEAKER_00]: I suppose world events.
+[SPEAKER_01]: And in theory it can be done except I was only giving it past prices and trying to get it to predict future prices but really you also need to feed into current news, newspapers, political stuff.
+[SPEAKER_00]: So do you think there's a way potentially that that could be done or do you still think there's just way too much going on?
+[SPEAKER_01]: Um, so after it didn't work, I did a little bit of research into whether it can be done.
+[SPEAKER_01]: And there are companies that do it, except they use multi-million dollar supercomputers and feed in all this data and...
+[SPEAKER_00]: So we're only short a few million dollars?
+[SPEAKER_00]: Yep.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: All right.
+[SPEAKER_00]: So maybe in the future, but not yet.
+[SPEAKER_00]: It's not going to be at the end of this.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Well, I love that you looked into it and thought, you know, hey, can it be done?
+[SPEAKER_00]: Any opportunities, anything that cropped up that was really cool or helpful that you didn't expect?
+[SPEAKER_01]: Not really.
+[SPEAKER_00]: Okay, in terms of strategies, perspectives and feedback and appraising them, so effectiveness.
+[SPEAKER_00]: When you've had information that contradicts,
+[SPEAKER_00]: What did you do about that to continue with your learning goal?
+[SPEAKER_00]: How did you work out which bit to do or which bit to ignore?
+[SPEAKER_01]: So I just tried it and tried the information and see if it worked, see if it didn't, learnt what sources are reliable and what ones aren't.
+[SPEAKER_01]: Things like Google AI are very unreliable.
+[SPEAKER_00]: So in terms of it worked or it didn't, is it as simple as that or is there a lot of grey where it sort of worked?
+[SPEAKER_00]: And you need to improve or with code is it like yep it worked or no it didn't?
+[SPEAKER_00]: Because I don't know because I don't know how to code it.
+[SPEAKER_01]: It's a bit of both.
+[SPEAKER_01]: So sometimes a program will either run or it will just give you an error and that's a simple worked or didn't work.
+[SPEAKER_01]: But then once you do get it to run then you're not really
+[SPEAKER_01]: it might not behave how you want or expected it to.
+[SPEAKER_00]: Okay, so then you've got to realise that and go back.
+[SPEAKER_00]: Well I suppose when computer says no, there's your answer.
+[SPEAKER_00]: That's easier than it working and then not giving you what you want.
+[SPEAKER_00]: Okay, so that sounds like a bit of trial and error and really understanding what you're trying to get out of it.
+[SPEAKER_00]: With that,
+[SPEAKER_00]: Do you think you recognised reasonably quickly and consistently that things probably weren't or were working how you wanted?
+[SPEAKER_00]: Was that reasonably simple or did it take a while to go, hang on, this isn't what I want, and then had to go back a lot?
+[SPEAKER_00]: Or was it pretty simple to just notice as you go?
+[SPEAKER_00]: I don't know if it's an easy question or not.
+[SPEAKER_00]: If it's not an easy question probably that's okay.
+[SPEAKER_00]: I was just interested because I'm thinking that you're trying all these things and you're writing code and as you go if it's working it's not throwing up an error but then you know in 20 steps you might go hey that's not actually what I want.
+[SPEAKER_00]: So how do you know how far back to go or what to change?
+[SPEAKER_01]: It's all just a lot of trial and error.
+[SPEAKER_01]: Like just seeing, just trying to change everything to isolate the problem and work out whether the problem is fundamentally something wrong with how you're trying to approach the situation or whether you've just got one line of code that just needs a number changing.
+[SPEAKER_00]: Wow, okay.
+[SPEAKER_00]: So if nothing else you've had an exercise in patience and persistence.
+[SPEAKER_00]: Has that really tested your grip in a sense?
+[SPEAKER_01]: Yeah, and like just like things that you wouldn't expect to happen like just trying to, I was trying to download some data from the Bureau of Meteorology and the website just kept crashing.
+[SPEAKER_01]: It's like stuff like that.
+[SPEAKER_00]: That's when you start getting cross with your computer I dare say.
+[SPEAKER_00]: So keep all of that in mind.
+[SPEAKER_00]: Sounds like a massive learning curve for you and a lot of work and a lot of trial and error.
+[SPEAKER_00]: How do you feel you're progressing with your topic and your learning goal and your output?
+[SPEAKER_01]: Pretty good.
+[SPEAKER_01]: My output is pretty much complete.
+[SPEAKER_01]: I have actually achieved what I originally intended.
+[SPEAKER_01]: Awesome.
+[SPEAKER_01]: So I've got two working AR models.
+[SPEAKER_01]: But there is still so much more I want to do.
+[SPEAKER_00]: So it's not finished.
+[SPEAKER_00]: This is a bit of a project that's going to continue for a while.
+[SPEAKER_01]: It'll probably never be finished.
+[SPEAKER_01]: It's just how finished I want it to be.
+[SPEAKER_00]: Yeah, that's true.
+[SPEAKER_01]: But I've learnt a lot about everything.
+[SPEAKER_00]: Yes, seems like you have.
+[SPEAKER_00]: So this week's appraisal, in this week's six, in four weeks' time, is pretty much everything handed up.
+[SPEAKER_00]: Are you on track?
+[SPEAKER_01]: I should be just.
+[SPEAKER_00]: Okay, so just.
+[SPEAKER_00]: What's the bit that's bothering you?
+[SPEAKER_01]: Balancing work with all other subjects.
+[SPEAKER_00]: Yeah, that's not the only one you've got.
+[SPEAKER_00]: Yeah, okay, awesome.
+[SPEAKER_00]: Next steps, you said it's probably never going to be finished so I'm guessing you're still going to play around in this space and keep, I don't know what you call it, developing or progressing your models.
+[SPEAKER_00]: In terms of this subject where it's been very much on you to organise your
+[SPEAKER_00]: structure and your time management and your planning.
+[SPEAKER_00]: I love hearing that you think you're going to get there and that your output's done.
+[SPEAKER_00]: So you've obviously managed it.
+[SPEAKER_00]: You've done this somehow.
+[SPEAKER_00]: What have you learned about yourself as a learner?
+[SPEAKER_01]: Time management.
+[SPEAKER_01]: I definitely need to improve it.
+[SPEAKER_01]: Holding myself accountable for actually getting stuff done.
+[SPEAKER_00]: So you are doing it, you are making it.
+[SPEAKER_00]: Do you think it's been a bit of pressure?
+[SPEAKER_00]: Have you been a bit pressured and felt a bit stressed about it because of that, do you think?
+[SPEAKER_00]: Yeah, maybe a little bit.
+[SPEAKER_00]: So from my perspective, if you get it all handed up on time, it went well.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: But what I'm hearing is that you feel like you haven't managed your time as best you could.
+[SPEAKER_00]: No.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: What else have you learned about yourself?
+[SPEAKER_00]: Did you surprise yourself with what you've achieved so far and how well you did?
+[SPEAKER_01]: I've learnt a completely new concept of computer science, so that was actually pretty interesting.
+[SPEAKER_00]: And a lot to learn in a reasonably short amount of time.
+[SPEAKER_00]: So if you take some of the skills you've got now, if we start looking at it as the research, the time management, the organisation, the planning, the ideas that you've got along the way, what skills do you think will help you with other subjects for next year and in life in general?
+[SPEAKER_01]: Time management and problem solving.
+[SPEAKER_01]: It's definitely helped me work out how to solve problems and try to isolate the problem, research solutions, apply those solutions.
+[SPEAKER_00]: Is that something new or something that you didn't expect to be so good at?
+[SPEAKER_00]: How did you feel about that?
+[SPEAKER_01]: I've been reasonably good at it for a while, but it definitely
+[SPEAKER_01]: Definitely helped Actually that reminds me um year 10 I was probably overestimated things a little bit but now I
+[SPEAKER_01]: Back then I was probably a bit ambitious in some of my goals, but now I've learnt that I've got limits as well.
+[SPEAKER_00]: So maybe what I'm hearing is that you were able to work out what you could handle so it's more manageable and that you could meet your goal and you could measure it.
+[SPEAKER_00]: So a smart goal rather than one that was just way too big.
+[SPEAKER_00]: Is that something that you've proved as well?
+[SPEAKER_00]: achievable and you want to, you'll get it done?
+[SPEAKER_01]: Yeah, as long as, if it's achievable and I want to, that's probably the biggest thing.
+[SPEAKER_00]: So that's important for you, perhaps, moving forward.
+[SPEAKER_00]: For every Year 12 subject, you'll have an investigation as part of your work.
+[SPEAKER_00]: So the key there, what I just heard, is that if you're passionate about it, or you really want to know, you'll do it, and you'll do it to a high standard.
+[SPEAKER_00]: So when you do have those tasks come up, Bradley, make sure that you put the time in maybe at the start, definitely, just to think about, you know, am I actually really invested or interested in this?
+[SPEAKER_00]: Because what I'm hearing is if you are, you're going to go game the busters and it's going to be great.
+[SPEAKER_01]: I guess I've learnt that about myself as well.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: So if I had given you a topic,
+[SPEAKER_00]: you know had a bit of dog kennel or something you might not have pushed hard and been so invested so i think there's some real keys there for you moving forward yeah well done awesome job

@@ -107,6 +107,8 @@ plt.ylabel("Validation Error Average (°C)")
 plt.title("Model Validation Error During Training")
 plt.savefig("training_graph.png")
 
+exit(0)
+
 # Enter seven daily maximum temperatures to predict the next day's maximum.
 print("\nEnter 7 daily maximum temperatures in °C, from oldest to most recent.")
 manual_temps = []
@@ -130,5 +132,5 @@ print(f"Predicted maximum temperature for the next day (day {num_days_per_sample
 
 actual_temp = float(input(f"Enter actual day {num_days_per_sample + 2} maximum temperature (°C): "))
 
-print(f"Prediction error: {abs(actual_temp - predicted_max_temp)} (°C)")
+print(f"Prediction error: {round(abs(actual_temp - predicted_max_temp), 1)} (°C)")
 

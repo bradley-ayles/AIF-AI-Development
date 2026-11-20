@@ -44,7 +44,7 @@ for i in range(len(daily_temps)):
     if i + num_days_per_sample == len(daily_temps):
         break
     # Daily price differences for n number of days, where n = num_days_per_sample. This is what is provided to the model as input
-    temps_training.append(daily_temps[i:i + num_days_per_sample])
+    temps_training.append(daily_temps[i:i + num_days_per_sample] )
     # Price difference for the n+1th day. This is what the model is trying to predict
     temps_labels.append(daily_temps[i + num_days_per_sample])
 
@@ -95,7 +95,7 @@ for i, val in enumerate([sublist[-1] for sublist in x_test]):
     baselineList.append(abs_err)
 
 # print the baseline
-print(f"Baseline MAE: { sum(baselineList) / len(baselineList) }")
+print(f"Baseline MAE: { sum(np.abs(y_test.numpy())) / len(y_test.numpy()) }")
 
 # Put the model training statistics into a nice graph (training_graph.png)
 mae_history = history.history["val_mean_absolute_error"]
